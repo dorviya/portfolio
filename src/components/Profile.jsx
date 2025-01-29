@@ -5,27 +5,20 @@ export function Profile() {
   return (
     <div className="max-w-2xl mx-auto">
       <div className="mb-12">
-        <h1 className="text-4xl font-bold text-white mb-2">John Doe</h1>
+        <h1 className="text-4xl font-bold text-white mb-2">Yann Dorville</h1>
         <p className="text-gray-300 text-lg">
-          Full-stack developer passionate about creating elegant solutions.
+          PhD candidate at UQAM
         </p>
       </div>
       
       <div className="space-y-6 text-gray-300">
         <div>
-          <p className="mb-1">Working at <Link href="#" className="text-white">TechCorp Industries</Link></p>
+          <p className="mb-1">Working at <Link href="#" className="text-white">OECD</Link></p>
           
           <p className="mb-1">
-            Creator of <Link href="#" className="text-white">ProjectX</Link>, <Link href="#" className="text-white">DevTools Pro</Link>, <Link href="#" className="text-white">CloudStack</Link>
+            Fellow at <Link href="#" className="text-white">CanD3</Link>, <Link href="#" className="text-white">CREDDI</Link>
           </p>
           
-          <p className="mb-1">
-            Core team of <Link href="#" className="text-white">OpenSource Framework</Link>, <Link href="#" className="text-white">WebTools</Link>
-          </p>
-          
-          <p>
-            Maintaining <Link href="#" className="text-white">CodeBase</Link>, <Link href="#" className="text-white">DevUtils</Link>, <Link href="#" className="text-white">BuildTools</Link>
-          </p>
         </div>
 
         <p>
